@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HKViewController : UIViewController
+@interface HKViewController : UIViewController{
+    IBOutlet UIImageView * myImage1;
+    IBOutlet UIImageView * myImage2;
+    IBOutlet UIImageView * myImage3;
+    IBOutlet UIImageView * myImage4;
+    
+    CGPoint pos;
+}
+- (IBAction)doSomething:(id)sender;
 
 @end

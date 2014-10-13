@@ -21,6 +21,7 @@
 		D8CA575C19EBB21A0050147B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CA573E19EBB21A0050147B /* UIKit.framework */; };
 		D8CA576419EBB21A0050147B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8CA576219EBB21A0050147B /* InfoPlist.strings */; };
 		D8CA576619EBB21A0050147B /* MovingSheepPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CA576519EBB21A0050147B /* MovingSheepPrototypeTests.m */; };
+		D8CA577019EBB2490050147B /* sheep3.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CA576F19EBB2490050147B /* sheep3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D8CA576119EBB21A0050147B /* MovingSheepPrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovingSheepPrototypeTests-Info.plist"; sourceTree = "<group>"; };
 		D8CA576319EBB21A0050147B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8CA576519EBB21A0050147B /* MovingSheepPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovingSheepPrototypeTests.m; sourceTree = "<group>"; };
+		D8CA576F19EBB2490050147B /* sheep3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheep3.png; path = ../sheep3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				D8CA574C19EBB21A0050147B /* Main.storyboard */,
 				D8CA574F19EBB21A0050147B /* HKViewController.h */,
 				D8CA575019EBB21A0050147B /* HKViewController.m */,
+				D8CA576F19EBB2490050147B /* sheep3.png */,
 				D8CA575219EBB21A0050147B /* Images.xcassets */,
 				D8CA574119EBB21A0050147B /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8CA575319EBB21A0050147B /* Images.xcassets in Resources */,
+				D8CA577019EBB2490050147B /* sheep3.png in Resources */,
 				D8CA574519EBB21A0050147B /* InfoPlist.strings in Resources */,
 				D8CA574E19EBB21A0050147B /* Main.storyboard in Resources */,
 			);
